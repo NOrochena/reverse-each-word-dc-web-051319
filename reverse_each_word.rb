@@ -5,7 +5,7 @@ def reverse_each_word(str)
     arr.push(ele.reverse)
   end
   
-  puts arr
+  puts arr.join(" ")
 end
 
 reverse_each_word("Testing my function")
